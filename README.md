@@ -90,9 +90,9 @@
   </ul>
 </div>
 <div>
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Visualisations Pitch Book</h2>
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Project presentation slides</h2>
   <ul>
-    <li><a href="https://guillermoibanez.github.io/Visualisations_Portfolio/Visualisations_Presentation_Pitch_Book.pdf">Click here to check out the Visualisations Pith Book Slides.</a> </li>
+    <li><a href="https://guillermoibanez.github.io/Project-AI_Automation/AI_offer_Automation.pdf">Click here to check out the Project presentation slides.</a> </li>
   </ul>
 </div>
 <div align="center">
