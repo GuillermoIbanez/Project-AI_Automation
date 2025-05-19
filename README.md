@@ -89,7 +89,12 @@
     <li><a href="gpt_4o_mini_extraction.ipynb">Click here to view the extraction code</a>. This notebook contains the implementation for PDF extraction and LLM-based data structuring.</li>
   </ul>
 </div>
-
+<div>
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Visualisations Pitch Book</h2>
+  <ul>
+    <li><a href="https://guillermoibanez.github.io/Project-AI_Automation/AI_offer_Automation.pdf">Click here to check out the Visualisations Pith Book Slides.</a> </li>
+  </ul>
+</div>
 <div align="center">
   <p>Last updated: May 2025.</p>
 </div>
