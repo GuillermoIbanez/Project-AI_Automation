@@ -4,7 +4,7 @@
   <h3><a>Project for Arthur Weber as part of my Data Science & AI 4 months full time course</a></h3>
 
 <h2>🎯 Objective</h2>
-<p>This project extracts structured data from construction PDFs in NPK format (Swiss building supply documents). The system identifies ordered items, quantities, units, and position numbers to create a structured database of construction materials and costs.</p>
+<p>This project extracts structured data from construction material orders from clients (in PDF format) which use a NPK format (Swiss building supply format). The code identifies ordered items, quantities, units, and position numbers and matches it with the company's warehouse/products database to find out if Arthur Weber offers these products or some of them. The final step consist on writing an offer document indicating the products that have been ordered by the client that can be offered by Arthur Weber. During the project we managed to automate the extraction, and matching parts of the project however we did not have time to implement the final step of generating offer documents.</p>
 
 <div>
   <h2>🛠️ Technologies</h2>
