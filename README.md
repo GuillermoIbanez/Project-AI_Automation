@@ -1,8 +1,16 @@
+<div align="center">
+  <h1>Guillermo Ibanez</h1>
+  <p>
+  </p>
+  <h1>
+    🚀 AI Automation | Customers Orders Extraction | Matching
+</h1>
+   <h1><img src="https://user-images.githubusercontent.com/74038190/221352987-68da234d-4d62-4e9d-9d7f-098dc657c2dc.gif" width="700" height="150"><h1>
+</div>
  <div>
-  <h2>🚀 AI Automation | Customers Orders Extraction | Matching</h2>
-  
   <h3><a>Project for Arthur Weber as part of my Data Science & AI 4 months full time course</a></h3>
 
+ <div>
 <h2>🎯 Objective</h2>
 <p>This project extracts structured data from construction material orders from clients (in PDF format) which use a NPK format (Swiss building supply format). The code identifies ordered items, quantities, units, and position numbers and matches it with the company's warehouse/products database to find out if Arthur Weber offers these products or some of them. The final step consist on writing an offer document indicating the products that have been ordered by the client that can be offered by Arthur Weber. During the project we managed to automate the extraction, and matching parts of the project however we did not have time to implement the final step of generating offer documents.</p>
 
