@@ -11,7 +11,7 @@
   <h3><a>Project for Arthur Weber as part of my Data Science & AI 4 months full time course</a></h3>
 
 <h2>🎯 Objective</h2>
-<p>We developed a proof-of-concept pipeline that applies modern natural language processing and semantic search techniques to streamline tender analysis. The core components include:</p>
+<p>We developed a proof-of-concept pipeline that applies modern natural language processing and semantic search techniques to streamline tender offers analysis. The core components include:</p>
 
 <p><strong>Automated Text Extraction</strong><br>
 Tender PDFs are parsed and cleaned to extract relevant product-related information.</p>
