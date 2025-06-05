@@ -10,25 +10,39 @@
  <div>
   <h3><a>Project for Arthur Weber as part of my Data Science & AI 4 months full time course</a></h3>
 
- <div>
 <h2>🎯 Objective</h2>
-<p>We developed a proof-of-concept pipeline that applies modern natural language processing and semantic search techniques to streamline tender analysis. The core components include:
+<p>We developed a proof-of-concept pipeline that applies modern natural language processing and semantic search techniques to streamline tender analysis. The core components include:</p>
 
-    Automated Text Extraction: Tender PDFs are parsed and cleaned to extract relevant product-related information.
-    Item Structuring via GPT-4o-mini: A lightweight language model structures each item description, identifying the product, quantity, and unit, even when information is fragmented or embedded in a technical context.
-    Semantic Product Matching: Using vector embeddings and cosine similarity, each tender item is compared to Arthur Weber’s product database to retrieve top candidate matches.
-    Final Validation with GPT: GPT is then used again to assess and validate the match, simulating the human verification process (see the picture below).
-Key Challenges
-The project was designed with real operational constraints in mind:
+<p><strong>Automated Text Extraction</strong><br>
+Tender PDFs are parsed and cleaned to extract relevant product-related information.</p>
 
-    Long, technical documents with inconsistent formatting
-    High item volume and potential for ambiguous product descriptions
-    Massive catalog of internal products requiring intelligent filtering
-    Frequent mismatches between tender items and catalog availability
+<p><strong>Item Structuring via GPT-4o-mini</strong><br>
+A lightweight language model structures each item description, identifying the product, quantity, and unit, even when information is fragmented or embedded in a technical context.</p>
 
-Moreover, Arthur Weber’s product database is vast. Ensuring that each extracted item description is complete with all necessary specifications to match the correct database entry is a demanding task.
-The AI solution developed by the team helps address these issues by increasing speed, improving accuracy, and establishing a scalable foundation for future automation.
-<div>
+<p><strong>Semantic Product Matching</strong><br>
+Using vector embeddings and cosine similarity, each tender item is compared to Arthur Weber's product database to retrieve top candidate matches.</p>
+
+<p><strong>Final Validation with GPT</strong><br>
+GPT is then used again to assess and validate the match, simulating the human verification process (see the picture below).</p>
+
+<h2>⚡ Key Challenges</h2>
+<p>The project was designed with real operational constraints in mind:</p>
+
+<p><strong>Long, technical documents with inconsistent formatting</strong><br>
+Documents often vary significantly in structure and presentation, making automated parsing complex.</p>
+
+<p><strong>High item volume and potential for ambiguous product descriptions</strong><br>
+Large quantities of items with unclear or incomplete specifications require intelligent interpretation.</p>
+
+<p><strong>Massive catalog of internal products requiring intelligent filtering</strong><br>
+The extensive product database needs efficient search and filtering mechanisms.</p>
+
+<p><strong>Frequent mismatches between tender items and catalog availability</strong><br>
+Many tender requirements don't align perfectly with available catalog items.</p>
+
+<p>Moreover, Arthur Weber's product database is vast. Ensuring that each extracted item description is complete with all necessary specifications to match the correct database entry is a demanding task.</p>
+
+<p>The AI solution developed by the team helps address these issues by increasing speed, improving accuracy, and establishing a scalable foundation for future automation.</p>
   <h2>🛠️ Technologies</h2>
   <table>
     <tr>
