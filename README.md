@@ -12,8 +12,22 @@
 
  <div>
 <h2>🎯 Objective</h2>
-<p>This project extracts structured data from construction material orders from clients (in PDF format) which use a NPK format (Swiss building supply format). The code identifies ordered items, quantities, units, and position numbers and matches it with the company's warehouse/products database to find out if Arthur Weber offers these products or some of them. The final step consist on writing an offer document indicating the products that have been ordered by the client that can be offered by Arthur Weber. During the project we managed to automate the extraction, and matching parts of the project however we did not have time to implement the final step of generating offer documents.</p>
+<p>We developed a proof-of-concept pipeline that applies modern natural language processing and semantic search techniques to streamline tender analysis. The core components include:
 
+    Automated Text Extraction: Tender PDFs are parsed and cleaned to extract relevant product-related information.
+    Item Structuring via GPT-4o-mini: A lightweight language model structures each item description, identifying the product, quantity, and unit, even when information is fragmented or embedded in a technical context.
+    Semantic Product Matching: Using vector embeddings and cosine similarity, each tender item is compared to Arthur Weber’s product database to retrieve top candidate matches.
+    Final Validation with GPT: GPT is then used again to assess and validate the match, simulating the human verification process (see the picture below).
+Key Challenges
+The project was designed with real operational constraints in mind:
+
+    Long, technical documents with inconsistent formatting
+    High item volume and potential for ambiguous product descriptions
+    Massive catalog of internal products requiring intelligent filtering
+    Frequent mismatches between tender items and catalog availability
+
+Moreover, Arthur Weber’s product database is vast. Ensuring that each extracted item description is complete with all necessary specifications to match the correct database entry is a demanding task.
+The AI solution developed by the team helps address these issues by increasing speed, improving accuracy, and establishing a scalable foundation for future automation.
 <div>
   <h2>🛠️ Technologies</h2>
   <table>
